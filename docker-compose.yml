@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  nextjs:
+    build: .
+    container_name: nextjs_isalabs
+    ports:
+      - "127.0.0.1:16400:3000"
+    networks:
+      - nextjs_isalabs
+    mem_limit: 1g
+    restart: always
+
+networks:
+  nextjs_isalabs:
+    external: true

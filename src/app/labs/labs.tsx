@@ -63,6 +63,11 @@ export function Labs() {
       url: "http://pengalilla.com:16407",
     },
     {
+      title: "OWASP bWAPP",
+      created: "KresnaYangAsli",
+      url: "http://156.67.220.220:16407",
+    },
+    {
       title: "Badstore",
       created: "zeroX397",
       url: "http://pengalilla.com:16408",
